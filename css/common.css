@@ -87,13 +87,16 @@ body {
 /* #region task-2 */
 .gallery {
   width: 1128px;
-  height: 300px;
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .gallery li {
@@ -136,6 +139,7 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   margin-top: 16px;
+  cursor: pointer;
 }
 .login-button:hover {
   background-color: #6c8cff;
@@ -152,6 +156,10 @@ body {
   gap: 16px;
   width: 169px;
   height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .widget-text {
   font-weight: 400;
@@ -166,5 +174,7 @@ body {
   width: 148px;
   height: 40px;
   background-color: #4e75ff;
+  cursor: pointer;
 }
+
 /* #endregion task-5 */
